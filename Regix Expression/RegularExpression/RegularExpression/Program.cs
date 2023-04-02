@@ -7,7 +7,7 @@ namespace RegularExpression
         {
             Console.WriteLine("Welcome to Regular Expression");
             Console.WriteLine("Input options to perform program");
-            Console.WriteLine("1:String Match\n2:Lower case");
+            Console.WriteLine("1:String Match\n2:Lower case\n3:HTML Tags");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -17,7 +17,9 @@ namespace RegularExpression
                 case 2:
                     LowerCaseSequence.CheckLowerCase();
                     break;
-
+                case 3:
+                    HTML_Tags.CheckHTMLtags();
+                    break;
 
             }
         }
